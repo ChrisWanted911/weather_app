@@ -1,0 +1,82 @@
+/* Style the weather website */
+
+body {
+    background-image: url(ScreenShot-2024-10-19_15-36-55.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+.weather-card {
+    background-color: rgba(135, 206, 235, 0.5); /* semi-transparent skyblue */
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 100px auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: 500px;
+    height: 350px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.city-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.search-btn {
+    padding: 10px 15px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    max-width: 200px;
+    transition: background 0.3s;
+}
+
+
+.search-btn:hover {
+    background-color: #45a049;
+}
+
+.temperature,
+.condition {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
